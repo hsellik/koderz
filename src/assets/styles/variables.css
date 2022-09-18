@@ -1,3 +1,20 @@
 :root {
   --color-primary: 222, 89%, 59%;
+  --color-secondary: 173, 72%, 55%;
+  --color-secondary-dark: 225, 49%, 25%;
+  --color-background: 233, 15%, 10%;
+  --color-background-secondary: 231, 19%, 14%;
+  --color-error: 10, 81%, 47%;
+
+  --h1-size: 4rem;
+  --h1-line-height: 4.6rem;
+  --h2-size: 2.75rem;
+  --h2-line-height: 3.163rem;
+  --h3-size: 2rem;
+  --h3-line-height: 2.3rem;
+  --h4-size: 1.75rem;
+  --h4-line-height: 2.25rem;
+  --h5-size: 1.125rem;
+  --h5-line-height: 1.688rem;
+  --h6-size: 0.8rem;
 }
