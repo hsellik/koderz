@@ -102,7 +102,7 @@ const props = defineProps({
 const emit = defineEmits(['update:modelValue', 'blur', 'change', 'input']);
 
 const classes = {
-  main: 'block rounded-md border border-secondary-dark font-normal py-2 px-3 w-full transition focus:bg-white focus:border-black focus:text-black outline-none bg-background-secondary',
+  main: 'block rounded-md border border-secondary-dark font-normal py-2 px-3 w-full transition outline-none bg-background-secondary gradient-border',
 };
 
 const inputRef = ref<HTMLInputElement>();
@@ -160,3 +160,11 @@ const handleInput = (event: Event): void => {
   emit('input', (event.target as HTMLInputElement).value || null);
 };
 </script>
+<style scoped>
+input:focus, textarea:focus {
+  border: double 1px transparent;
+  background-image: linear-gradient(hsla(var(--color-background-secondary)), hsla(var(--color-background-secondary))), linear-gradient(to right, hsla(var(--color-primary)), hsla(var(--color-secondary)));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+</style>

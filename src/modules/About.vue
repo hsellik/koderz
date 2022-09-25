@@ -3,12 +3,24 @@
     <div class="flex flex-wrap justify-center gap-x-5 gap-y-5 2xl:justify-between">
       <Card padding="large" class="max-w-md">
         <div class="flex flex-col items-center text-center space-y-3">
+          <AccuracySvg class="h-40 w-auto"/>
+          <Heading level="h4" weight="semibold">
+            Based in Tallinn, Estonia
+          </Heading>
+          <p>
+            We can cooperate in designing, developing and deploying your custom software
+          </p>
+        </div>
+      </Card>
+
+      <Card padding="large" class="max-w-md">
+        <div class="flex flex-col items-center text-center space-y-3">
           <CodeSvg class="h-40 w-auto"/>
           <Heading level="h4" weight="semibold">
             Capable in all areas related to software
           </Heading>
           <p>
-            We can cooperate in analyzing, designing, developing and deploying your software
+            Experienced in developing several business critical solutions in fintech and other industries here
           </p>
         </div>
       </Card>
@@ -16,18 +28,6 @@
       <Card padding="large" class="max-w-md">
         <div class="flex flex-col items-center text-center space-y-3">
           <DevicesSvg class="h-40 w-auto"/>
-          <Heading level="h4" weight="semibold">
-            Not another home page company
-          </Heading>
-          <p>
-            Experienced in developing several business critical solutions in fintech and other industries.
-          </p>
-        </div>
-      </Card>
-
-      <Card padding="large" class="max-w-md">
-        <div class="flex flex-col items-center text-center space-y-3">
-          <AccuracySvg class="h-40 w-auto"/>
           <Heading level="h4" weight="semibold">
             Stand out from the mass
           </Heading>

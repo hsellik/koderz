@@ -24,20 +24,27 @@ import WebGLFluid from 'webgl-fluid'
 const canvas = ref();
 
 onMounted(async () => {
-  WebGLFluid(canvas.value, {
-    TRIGGER: 'hover',
-    PRESSURE_ITERATIONS: 10,
-    DENSITY_DISSIPATION: 3,
-    CURL: 5,
-    SPLAT_RADIUS: 0.3,
-    COLOR_UPDATE_SPEED: 5,
-    TRANSPARENT: true,
-    BLOOM: false,
-    SUNRAYS: false,
-  })
+  if (!isMobile()) {
+    WebGLFluid(canvas.value, {
+      TRIGGER: 'hover',
+      PRESSURE_ITERATIONS: 10,
+      DENSITY_DISSIPATION: 3,
+      CURL: 5,
+      SPLAT_RADIUS: 0.3,
+      COLOR_UPDATE_SPEED: 5,
+      TRANSPARENT: true,
+      BLOOM: false,
+      SUNRAYS: false,
+    })
+  }
+
 
   emailjs.init("bQSCpOo4twUdftcji");
 });
+
+function isMobile() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 </script>
 <style>
 canvas {
