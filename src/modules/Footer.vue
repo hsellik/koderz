@@ -1,8 +1,8 @@
 <template>
   <div class="gradient-background pt-16 pb-8">
     <div class="container mx-auto flex flex-col items-center justify-center space-y-5 ">
-      <KoderzLogo class="h-8 w-auto fill-white"/>
-      <p class="text-gray-400">
+      <KoderzLogo class="h-8 w-auto fill-white z-10"/>
+      <p class="text-gray-400 z-10">
         All rights reserved ©
       </p>
     </div>

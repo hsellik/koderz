@@ -45,7 +45,7 @@ const props = defineProps({
 
 const computedClassList = computed(() => {
   return [
-    'card border bg-background-secondary rounded-md drop-shadow shadow-primary',
+    'card border bg-background-secondary rounded-md drop-shadow shadow-primary z-10',
     {
       'p-1': props.padding === 'x-small',
       'p-4': props.padding === 'small',

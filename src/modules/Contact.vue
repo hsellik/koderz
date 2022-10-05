@@ -6,7 +6,7 @@
   <div class="bg-ufo bg-no-repeat background py-24">
     <div class="container mx-auto px-8">
       <div class="flex flex-col 2xl:flex-row flex-wrap justify-center items-center 2xl:justify-between">
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center z-10">
           <Heading class="relative uppercase text-center 2xl:text-left" level="h2" weight="bold">
             Have a project? <br/> <span class="text-primary">Let's work together</span>
             <ArrowHorizontal class="hidden 2xl:block absolute left-[80%] top-[120%] h-32 w-auto fill-white"/>

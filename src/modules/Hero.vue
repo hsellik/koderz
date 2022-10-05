@@ -1,5 +1,5 @@
 <template>
-  <KoderzLogo class="absolute h-6 top-10 left-8 md:top-12 md:left-16 md:h-8 w-auto fill-white"/>
+  <KoderzLogo class="absolute h-6 top-10 left-8 md:top-12 md:left-16 md:h-8 w-auto fill-white z-10"/>
 
   <div class="gradient-background bg-cover">
     <div class="h-screen  container mx-auto px-8">
@@ -8,7 +8,7 @@
           Need <span class="text-primary">working solutions</span><br class="hidden md:block"/> for
           <br class="md:hidden"/> your business?
         </Heading>
-        <p class="text-center">
+        <p class="text-center z-10">
           We offer world-class custom software engineering solutions for web and backend systems
         </p>
 

@@ -75,7 +75,7 @@ const Tag = props.tag || props.level;
 
 const computedClassList = computed(() => {
   return [
-    'heading font-heading font-weight-heading',
+    'heading font-heading font-weight-heading z-10',
     {
       'text-h3 md:text-h1': [props.visualLevel, props.level].includes('h1'),
       'text-h4 md:text-h2': [props.visualLevel, props.level].includes('h2'),
